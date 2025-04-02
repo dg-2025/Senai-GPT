@@ -9,28 +9,36 @@
     border-right: 1px solid #ccc;
 }
 
-.top-box {
+.tela .header-lateral .top-box {
     align-items: center;
     flex-direction: column;
     display: flex;
     padding-top: 15px;
     width: 100%;
-    height: 70%;
+    height: 65%;
     background-color: white;
     border-bottom: 1px solid #ccc;
 
 }
 
 .botoes {
+    align-items: center;
+    flex-direction: row;
+    display: flex;
     text-align: left;
-    padding: 14px;
+    padding: 12px;
     background-color: white;
     color: black;
     border: none;
     width: 240px;
     border-radius: 15px;
 }
-.new-chat   {
+.botoes img {
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.new-chat {
     padding: 14px;
     border: none;
     width: 240px;
@@ -44,13 +52,16 @@
     flex-direction: column;
     display: flex;
     width: 100%;
-    height: 30%;
-    background-color:white;
+    height: 35%;
+    background-color: white;
     border-top: 1px solid #ccc;
 
 }
 
 .end-box button {
+    align-items: center;
+    flex-direction: row;
+    display: flex;
     text-align: left;
     padding: 14px;
     background-color: white;
@@ -60,6 +71,10 @@
     border-radius: 7px;
 
 }
+.end-box img{
+    margin-left: 10px;
+    margin-right: 20px;
+}
 
 .right-lateral {
     display: flex;
@@ -68,42 +83,45 @@
     padding-top: 12vh;
     height: 100vh;
     width: 82vw;
-    background-color:white;
+    background-color: white;
 
 }
 
 .SenaiGPT {
     justify-content: center;
     width: 396px;
-    height:90px;
-    margin-bottom:50px;
+    height: 90px;
+    margin-bottom: 50px;
 }
+
 .conteiners {
-    font-family: inter ;
+    font-family: inter;
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
+
 .text-grup-titulo {
-    font-size:18px;
+    font-size: 18px;
 }
 
 .text-grup {
-    width:280px;
-    font-family: inter ;
+    width: 280px;
+    font-family: inter;
     text-align: center;
-    margin-right:20px;
+    margin-right: 20px;
 }
+
 .text-grup button {
     text-align: start;
-    font-family: inter ;
+    font-family: inter;
     justify-content: center;
     flex-direction: column;
     margin-top: 10px;
     padding: 1vh;
-    background-color:#F7F9FB;
-    color:black;
+    background-color: #F7F9FB;
+    color: black;
     border: none;
     width: 260px;
     height: 50px;
@@ -111,19 +129,34 @@
 }
 
 .mensagem {
+    height: 46px;
+    margin-top: auto;
+    margin-bottom: 40px;
     display: flex;
-    justify-content: center;
-    align-items: end;
-    flex-direction: column;
+    align-items: center;
+    border: none;
+    background-color: #F7F9FB;
+    border-radius: 16px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
+
 .Type-message {
-    margin-top:32vh;
-    width:760px;
-    height:46px;
-    border-radius:16px;
+
+    margin-top: 0vh;
+    width: 760px;
+    height: 46px;
+    border-radius: 16px;
     border: none;
     color: black;
-    background-color: #F7F9FB;
+    background-color: transparent;
     padding: 15px;
 
+}
+
+.microfone {
+    margin-left: 10px;
+    margin-right: 20px;
+    width: 13px;
+    height: 18px;
 }
