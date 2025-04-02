@@ -5,7 +5,8 @@
 .header-lateral {
     height: 100vh;
     width: 18vw;
-    background-color: blue;
+    background-color: rgb(149, 149, 149);
+    border-right: 1px solid #ccc;
 }
 
 .top-box {
@@ -15,7 +16,9 @@
     padding-top: 15px;
     width: 100%;
     height: 70%;
-    background-color: brown;
+    background-color: white;
+    border-bottom: 1px solid #ccc;
+
 }
 
 .botoes {
@@ -42,7 +45,9 @@
     display: flex;
     width: 100%;
     height: 30%;
-    background-color: rgb(81, 42, 165);
+    background-color:white;
+    border-top: 1px solid #ccc;
+
 }
 
 .end-box button {
@@ -59,20 +64,66 @@
 .right-lateral {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    padding-top: 12vh;
     height: 100vh;
     width: 82vw;
-    background-color: aqua;
+    background-color:white;
+
 }
 
 .SenaiGPT {
     justify-content: center;
-    width: 440px;
-    height:100px;
+    width: 396px;
+    height:90px;
+    margin-bottom:50px;
 }
 .conteiners {
+    font-family: inter ;
     display: flex;
     justify-content: center;
     align-items: center;
+    
+}
+.text-grup-titulo {
+    font-size:18px;
+}
+
+.text-grup {
+    width:280px;
+    font-family: inter ;
+    text-align: center;
+    margin-right:20px;
+}
+.text-grup button {
+    text-align: start;
+    font-family: inter ;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10px;
+    padding: 1vh;
+    background-color:#F7F9FB;
+    color:black;
+    border: none;
+    width: 260px;
+    height: 50px;
+
+}
+
+.mensagem {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    flex-direction: column;
+}
+.Type-message {
+    margin-top:32vh;
+    width:760px;
+    height:46px;
+    border-radius:16px;
+    border: none;
+    color: black;
+    background-color: #F7F9FB;
+    padding: 15px;
+
 }
